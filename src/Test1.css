@@ -1,0 +1,26 @@
+.discord-button {
+    background-color: #7289da;
+    /* Discord blurple */
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+.discord-button:hover {
+    background-color: #5b6eae;
+    /* Darker blurple */
+}
+
+.discord-button:active {
+    background-color: #4e5c94;
+    /* Even darker blurple */
+    transform: scale(0.95);
+}
+
+.discord-button:focus {
+    outline: none;
+}
