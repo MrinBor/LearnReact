@@ -1,0 +1,101 @@
+/* GitDis.css */
+.btn {
+    background: linear-gradient(45deg, #0011ff, #00ff00, #e101ff);
+    background-size: 400% 400%;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 20px 0;
+    position: relative;
+    overflow: hidden;
+    transition: background-color 0.3s ease;
+    animation: glitter 1.5s linear infinite;
+}
+
+.btn:hover {
+    background-position: right center;
+    /* Change the direction of the gradient on hover */
+}
+
+@keyframes glitter {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.btn::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -75px;
+    width: 50px;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.5);
+    transform: skewX(-20deg);
+    filter: blur(5px);
+    animation: shine 2s infinite;
+}
+
+@keyframes shine {
+    0% {
+        left: -75px;
+    }
+
+    50% {
+        left: 125%;
+    }
+
+    100% {
+        left: 125%;
+    }
+}
+
+.disp {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.disp li {
+    flex: 1 1 calc(33.333% - 20px);
+    box-sizing: border-box;
+    padding: 10px;
+    background-color: violet;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.disp img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.disp h4 {
+    margin: 0 0 5px 0;
+}
+
+.algn{
+    position: absolute;
+    margin-left: 200px;
+    margin-top: -90px;
+    border-radius: 12px;
+    padding: 12px;
+    background-color: #0011ff;
+}

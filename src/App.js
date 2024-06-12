@@ -23,10 +23,15 @@ import React from 'react'
 import Det from './Det';
 import List from './List';
 import Test1 from './Test1';
-import Chat from './Chat';
 import Form from './FORMS/Form';
 import Success from './FORMS/Success';
 import Counter from './Counter';
+import Cup from './Cup';
+import GitDis from './GitDis';
+import ApiFetch from './ApiFetch';
+import Ssc from './Ssc';
+import Ternary from './Ternary';
+import HNS from './HNS';
 
 ///Varibales can be declared outside and inside the variables as well
 
@@ -41,9 +46,18 @@ function BookList() {
   return (
 <section className='as01'>
 
-  
+  <HNS/>
 
-  <Chat/>
+  <Ternary />
+
+  <Ssc/>
+
+  <ApiFetch/>
+
+
+
+  <GitDis/>
+  {/* <Chat/> */}
 
   <Test1/>
   <List/>
@@ -55,6 +69,11 @@ function BookList() {
 
   <div style={{backgroundColor:"blue",padding:"12px",margin:'10px',height:"144px",borderRadius:"12px"}}>
       <Counter/>
+  </div>
+
+
+  <div style={{backgroundColor:"violet",padding:"12px",margin:'10px',height:"144px",borderRadius:"12px"}}>
+    <Cup/>
   </div>
 
 
