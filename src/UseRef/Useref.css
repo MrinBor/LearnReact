@@ -1,0 +1,10 @@
+.ref{
+    background-color: rgb(255, 255, 255);
+    height: 820px;
+    color: rgb(0, 0, 0);
+    padding: 12px;
+    font-size: 23px;
+    font-weight: 700;
+    margin: 12px;
+    border-radius: 20px;
+}

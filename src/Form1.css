@@ -1,0 +1,155 @@
+/* Add these styles to your CSS file */
+.aa1 {
+    font-family:fantasy;
+    color:pink;
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+}
+
+.aa1 label {
+    margin-top: 45px;
+    font-size: 1rem;
+    margin-bottom: 5px;
+    color: #ffeafc;
+}
+
+.aa1 input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    width: 100%;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease-in-out;
+}
+
+.aa1 input:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+.a1{
+    background:linear-gradient(135deg,rgb(0, 0, 0),rgb(36, 20, 255));
+    height: 1200px;
+}
+
+.rend{
+    display: flex;
+}
+
+.mainpanel{
+    position: absolute;
+    margin: 5px;
+    padding: 4px;
+    display: flex;
+}
+
+.y{
+    background-color: yellow;
+    height: 10px;
+    width: 10px;
+
+    margin: 2px;
+    cursor: pointer;
+    border-radius: 12px;
+}
+
+
+.r {
+    background-color: rgb(226, 39, 39);
+    height: 10px;
+    width: 10px;
+    margin: 2px;
+    cursor: pointer;
+    border-radius: 12px;
+}
+
+
+.g {
+    background-color: rgb(32, 255, 32);
+    height: 10px;
+    width: 10px;
+    margin: 2px;
+    cursor: pointer;
+    border-radius: 12px;
+}
+
+.secin{
+    display: flex;
+}
+
+.ysi{
+    width: fit-content;
+    cursor: pointer;
+    background-color: rgb(0, 0, 0);
+    height: fit-content;
+    padding: 3px;
+    border: 1px solid blue;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    border-radius: 12px;
+    margin-left: 2px;
+}
+
+.rsi{
+        width: 85px;
+        cursor: pointer;
+        border: 1px solid rgb(204, 0, 255);
+            background-color: rgb(0, 0, 0);
+            height: 20px;
+            padding: 3px;
+            align-items: center;
+            color: rgb(255, 255, 255);
+            border-radius: 12px;
+            position: relative;
+            margin-left: 10px;
+}
+
+.gsi{
+            
+            width: 80px;
+            cursor: pointer;
+            border: 1px solid rgb(64, 255, 6);
+                height: 20px;
+                padding: auto;
+                padding-left: 12px;
+                align-items: center;
+                color: rgb(255, 255, 255);
+                border-radius: 12px;
+                margin-left: 2px;
+}
+
+.csnippet{
+    z-index: 11;
+    padding:1px;
+    border-radius: 10px;
+    position: absolute;;
+    color: rgb(80, 255, 64);
+    width: 95%;
+    margin-left: -50px;
+    background-color: #000000;
+}
+
+.renderer{
+    background-color:black;
+    width:fit-content;
+    padding:5px;
+    margin:2px;
+    z-index:2;
+    border-radius:12px;
+}
+
+.dropdown {
+  border-radius: 12px;
+  background-color: white;
+  color: black;
+  width: 800px; /* Fixed width for centering */
+  padding: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top:10px;
+  transform: translate(-50%, 0); /* Horizontally center */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}

@@ -19,11 +19,12 @@
 
 import './index.css'
 import './App.css'
+import { Provider } from 'react-redux';
 import React from 'react'
 import Det from './Det';
 import List from './List';
 import Test1 from './Test1';
-import Form from './FORMS/Form';
+import Form from './Form';
 import Success from './FORMS/Success';
 import Counter from './Counter';
 import Cup from './Cup';
@@ -32,6 +33,9 @@ import ApiFetch from './ApiFetch';
 import Ssc from './Ssc';
 import Ternary from './Ternary';
 import HNS from './HNS';
+import Form1 from './Form1';
+import Redux from './Index/Redux';
+import Us from './UseRef/Us';
 
 ///Varibales can be declared outside and inside the variables as well
 
@@ -44,7 +48,13 @@ function BookList() {
 
 
   return (
+
+
 <section className='as01'>
+
+  <Form1/>
+
+  <Form/>
 
   <HNS/>
 
@@ -75,6 +85,10 @@ function BookList() {
   <div style={{backgroundColor:"violet",padding:"12px",margin:'10px',height:"144px",borderRadius:"12px"}}>
     <Cup/>
   </div>
+
+
+  <Redux/>
+  <Us/>
 
 
 
